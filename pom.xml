@@ -81,7 +81,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>suji</name>
-	      <url>http://13.233.56.248:8081/nexus/</url>
+	      <url>http://13.233.56.248:8081/nexus/content/repositories/nexus/</url>
 	    </repository>
 	   <!-- <snapshotRepository>
 	      <id>nexus</id>
