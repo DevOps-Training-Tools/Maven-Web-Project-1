@@ -6,7 +6,7 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>1.0-release</version>
+  <version>1.0-snapshot</version>
   <name>Maven Web Project 22nd may</name>
   <description>Maven Web Project for Java Project</description>
 
