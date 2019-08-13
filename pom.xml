@@ -7,7 +7,7 @@
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Maven Web Project 22nd may</name>
+  <name>Declarative PipeLine Project</name>
   <description>Maven Web Project for Java Project</description>
 
  <organization>
@@ -19,7 +19,7 @@
 	    <spring.version>4.1.4.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-	 	<sonar.host.url>http://ec2-52-66-213-230.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
+	 	<sonar.host.url>http://ec2-13-233-16-155.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -81,15 +81,15 @@
 
 	<distributionManagement>
     <repository>
-        <id>central</id>
-        <name>ip-172-31-40-156-releases</name>
-        <url>http://13.232.240.86:8081/artifactory/Maven_Release_Repository</url>
+        <id>jfrog</id>
+         <name>ip-172-31-40-156-releases</name>
+        <url>http://13.233.8.153:8081/artifactory/Maven_Release_Repository</url>
     </repository>
 		
 		 <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-40-156-snapshots</name>
-        <url>http://13.232.240.86:8081/artifactory/Maven_Snapshot_Repository</url>
+        <id>jfrog</id>
+       <name>ip-172-31-40-156-snapshots</name>
+        <url>http://13.233.8.153:8081/artifactory/Maven_Snapshot_Repository</url>
     </snapshotRepository>
 		
 </distributionManagement>
