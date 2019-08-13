@@ -1,6 +1,6 @@
 #!groovy
 
-node (slave2)
+node ()
 {
 	//GitHub 
 	
