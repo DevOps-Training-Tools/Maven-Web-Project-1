@@ -7,19 +7,15 @@
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
   <version>1.0-release</version>
-  <name>Maven Web Project 22nd may</name>
-  <description>Maven Web Project for Java Project</description>
+  <name>Maven Web Application</name>
+  <description>End-to-End work for Pipeline Project</description>
 
- <organization>
-     <name>Mithun Technologies</name>
-     <url>http://mithuntechnologies.com/</url>
- </organization>
 
   <properties>
 	    <spring.version>4.1.4.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-	 	<sonar.host.url>http://localhost:9000/</sonar.host.url>
+	 	<sonar.host.url>http://ec2-13-233-16-155.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
@@ -79,16 +75,16 @@
 
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
-	      <name>suji</name>
-	      <url>http://13.233.56.248:8081/nexus/content/repositories/nexus/</url>
+	      <id>jforg</id>
+	      <name>Release Repo</name>
+	      <url>http://13.233.8.153:8081/artifactory/Maven_Release_Repository</url>
 	    </repository>
-	   <!-- <snapshotRepository>
-	      <id>nexus</id>
-	      <name>sujisnap</name>
-	      <url>http://54.212.116.149:8081/repository/sujisnap/</url>
+	   <snapshotRepository>
+	      <id>njfrog</id>
+	      <name>Snapshot Repo</name>
+	     <url>http://13.233.8.153:8081/artifactory/Maven_Snapshot_Repository</url>
 	    </snapshotRepository>
-	-->
+		
 	</distributionManagement>
 	
 	
